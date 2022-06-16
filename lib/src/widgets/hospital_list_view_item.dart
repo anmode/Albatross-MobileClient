@@ -1,10 +1,10 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'package:hospitality/src/helpers/dimensions.dart';
-import 'package:hospitality/src/models/hospital.dart';
-import 'package:hospitality/src/screens/hospital_info_screen.dart';
-import 'package:hospitality/src/widgets/slide_page_route.dart';
+import 'package:Albatross/src/helpers/dimensions.dart';
+import 'package:Albatross/src/models/hospital.dart';
+import 'package:Albatross/src/screens/hospital_info_screen.dart';
+import 'package:Albatross/src/widgets/slide_page_route.dart';
 import 'package:sliding_up_panel/sliding_up_panel.dart';
 
 class HospitalListViewItem extends StatelessWidget {

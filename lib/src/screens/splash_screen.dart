@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:hospitality/src/models/hospital.dart';
-import 'package:hospitality/src/models/user.dart';
-import 'package:hospitality/src/providers/hospital_user_provider.dart';
-import 'package:hospitality/src/providers/user_profile_provider.dart';
-import 'package:hospitality/src/screens/user_home_screen.dart';
-import 'package:hospitality/src/screens/hospital_home_screen.dart';
-import 'package:hospitality/src/widgets/scale_page_route.dart';
+import 'package:Albatross/src/models/hospital.dart';
+import 'package:Albatross/src/models/user.dart';
+import 'package:Albatross/src/providers/hospital_user_provider.dart';
+import 'package:Albatross/src/providers/user_profile_provider.dart';
+import 'package:Albatross/src/screens/user_home_screen.dart';
+import 'package:Albatross/src/screens/hospital_home_screen.dart';
+import 'package:Albatross/src/widgets/scale_page_route.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:hospitality/src/resources/network/network_repository.dart';
+import 'package:Albatross/src/resources/network/network_repository.dart';
 import 'dart:async';
 
 import '../helpers/dimensions.dart';
@@ -126,7 +126,7 @@ class _SplashPageState extends State<SplashPage>
                 child: Column(
                   children: <Widget>[
                     Text(
-                      'Hospitality',
+                      'Albatross',
                       style: TextStyle(
                           color: Color(0xff00008b),
                           fontFamily: "Manrope",

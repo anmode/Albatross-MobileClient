@@ -1,16 +1,16 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
-import 'package:hospitality/src/dialogs/loading_dialog.dart';
-import 'package:hospitality/src/helpers/current_location.dart';
-import 'package:hospitality/src/helpers/dimensions.dart';
-import 'package:hospitality/src/models/hospital.dart';
-import 'package:hospitality/src/models/user.dart';
-import 'package:hospitality/src/providers/hospital_list_provider.dart';
-import 'package:hospitality/src/providers/user_profile_provider.dart';
-import 'package:hospitality/src/resources/network/network_repository.dart';
-import 'package:hospitality/src/helpers/fetch_user_data.dart';
-import 'package:hospitality/src/widgets/scale_page_route.dart';
+import 'package:Albatross/src/dialogs/loading_dialog.dart';
+import 'package:Albatross/src/helpers/current_location.dart';
+import 'package:Albatross/src/helpers/dimensions.dart';
+import 'package:Albatross/src/models/hospital.dart';
+import 'package:Albatross/src/models/user.dart';
+import 'package:Albatross/src/providers/hospital_list_provider.dart';
+import 'package:Albatross/src/providers/user_profile_provider.dart';
+import 'package:Albatross/src/resources/network/network_repository.dart';
+import 'package:Albatross/src/helpers/fetch_user_data.dart';
+import 'package:Albatross/src/widgets/scale_page_route.dart';
 import 'package:location/location.dart';
 import 'package:provider/provider.dart';
 

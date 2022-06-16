@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:hospitality/src/helpers/dimensions.dart';
-import 'package:hospitality/src/models/appointment.dart';
-import 'package:hospitality/src/screens/splash_screen.dart';
+import 'package:Albatross/src/helpers/dimensions.dart';
+import 'package:Albatross/src/models/appointment.dart';
+import 'package:Albatross/src/screens/splash_screen.dart';
 
 void showAppointmentInfo(
     {@required BuildContext context, @required Appointment appointment}) {

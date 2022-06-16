@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:hospitality/src/helpers/dimensions.dart';
+import 'package:Albatross/src/helpers/dimensions.dart';
 
 void showLoadingDialog({@required BuildContext context}) {
   showGeneralDialog(

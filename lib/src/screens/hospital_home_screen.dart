@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:hospitality/src/helpers/dimensions.dart';
-import 'package:hospitality/src/providers/hospital_user_provider.dart';
-import 'package:hospitality/src/screens/appointments%20_list_screen.dart';
-import 'package:hospitality/src/screens/hospital_info_screen.dart';
-import 'package:hospitality/src/screens/hospital_stats_screen.dart';
+import 'package:Albatross/src/helpers/dimensions.dart';
+import 'package:Albatross/src/providers/hospital_user_provider.dart';
+import 'package:Albatross/src/screens/appointments%20_list_screen.dart';
+import 'package:Albatross/src/screens/hospital_info_screen.dart';
+import 'package:Albatross/src/screens/hospital_stats_screen.dart';
 import 'package:provider/provider.dart';
 import '../helpers/dimensions.dart';
 
@@ -36,7 +36,7 @@ class _HospitalDashboardState extends State<HospitalDashboard> {
         appBar: AppBar(
           centerTitle: true,
           title: Text(
-            'Hospitality',
+            'Albatross',
             style: TextStyle(
                 fontFamily: "BalooTamma2", fontSize: viewportHeight * 0.045),
           ),

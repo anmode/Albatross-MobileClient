@@ -1,5 +1,5 @@
-import 'package:hospitality/src/models/hospital.dart';
-import 'package:hospitality/src/models/user.dart';
+import 'package:Albatross/src/models/hospital.dart';
+import 'package:Albatross/src/models/user.dart';
 import 'package:http/http.dart' show Response;
 
 

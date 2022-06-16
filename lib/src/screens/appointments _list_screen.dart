@@ -2,15 +2,15 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
-import 'package:hospitality/src/helpers/dimensions.dart';
-import 'package:hospitality/src/models/appointment.dart';
-import 'package:hospitality/src/models/hospital.dart';
-import 'package:hospitality/src/models/user.dart';
-import 'package:hospitality/src/providers/hospital_user_provider.dart';
-import 'package:hospitality/src/providers/user_profile_provider.dart';
-import 'package:hospitality/src/resources/network/network_repository.dart';
-import 'package:hospitality/src/screens/splash_screen.dart';
-import 'package:hospitality/src/widgets/appointments_list_view_item.dart';
+import 'package:Albatross/src/helpers/dimensions.dart';
+import 'package:Albatross/src/models/appointment.dart';
+import 'package:Albatross/src/models/hospital.dart';
+import 'package:Albatross/src/models/user.dart';
+import 'package:Albatross/src/providers/hospital_user_provider.dart';
+import 'package:Albatross/src/providers/user_profile_provider.dart';
+import 'package:Albatross/src/resources/network/network_repository.dart';
+import 'package:Albatross/src/screens/splash_screen.dart';
+import 'package:Albatross/src/widgets/appointments_list_view_item.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 

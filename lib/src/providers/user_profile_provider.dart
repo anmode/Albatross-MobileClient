@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:hospitality/src/models/user.dart';
+import 'package:Albatross/src/models/user.dart';
 
 class UserProfileProvider extends ChangeNotifier {
   User _user=User();

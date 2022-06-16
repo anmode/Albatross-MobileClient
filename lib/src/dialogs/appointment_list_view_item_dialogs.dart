@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
-import 'package:hospitality/src/dialogs/loading_dialog.dart';
-import 'package:hospitality/src/models/appointment.dart';
-import 'package:hospitality/src/resources/network/network_repository.dart';
-import 'package:hospitality/src/screens/splash_screen.dart';
+import 'package:Albatross/src/dialogs/loading_dialog.dart';
+import 'package:Albatross/src/models/appointment.dart';
+import 'package:Albatross/src/resources/network/network_repository.dart';
+import 'package:Albatross/src/screens/splash_screen.dart';
 
 Future<void> acceptAppointment(BuildContext context, Appointment appointment,
     GlobalKey<RefreshIndicatorState> refreshIndicatorKey) {

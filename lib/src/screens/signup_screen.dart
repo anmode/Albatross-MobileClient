@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:fluttertoast/fluttertoast.dart';
-import 'package:hospitality/src/dialogs/confirmation_link_dialog.dart';
-import 'package:hospitality/src/helpers/current_location.dart';
-import 'package:hospitality/src/helpers/dimensions.dart';
-import 'package:hospitality/src/resources/network/network_repository.dart';
+import 'package:Albatross/src/dialogs/confirmation_link_dialog.dart';
+import 'package:Albatross/src/helpers/current_location.dart';
+import 'package:Albatross/src/helpers/dimensions.dart';
+import 'package:Albatross/src/resources/network/network_repository.dart';
 
 class SignUpScreen extends StatefulWidget {
   @override

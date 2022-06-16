@@ -1,12 +1,12 @@
 import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
-import 'package:hospitality/src/models/hospital.dart';
-import 'package:hospitality/src/models/user.dart';
-import 'package:hospitality/src/resources/network/network_config.dart';
-import 'package:hospitality/src/screens/splash_screen.dart';
+import 'package:Albatross/src/models/hospital.dart';
+import 'package:Albatross/src/models/user.dart';
+import 'package:Albatross/src/resources/network/network_config.dart';
+import 'package:Albatross/src/screens/splash_screen.dart';
 import 'package:http/http.dart';
-import 'package:hospitality/src/resources/network/network_calls.dart';
+import 'package:Albatross/src/resources/network/network_calls.dart';
 
 class _NetworkRepository implements NetworkCalls {
   final Client _client = Client();

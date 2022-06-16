@@ -1,20 +1,20 @@
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
-import 'package:hospitality/src/dialogs/confirmation_link_dialog.dart';
-import 'package:hospitality/src/dialogs/forgot_password.dialog.dart';
-import 'package:hospitality/src/models/hospital.dart';
-import 'package:hospitality/src/providers/hospital_user_provider.dart';
-import 'package:hospitality/src/screens/hospital_home_screen.dart';
-import 'package:hospitality/src/models/user.dart';
-import 'package:hospitality/src/providers/user_profile_provider.dart';
-import 'package:hospitality/src/screens/splash_screen.dart';
-import 'package:hospitality/src/screens/user_home_screen.dart';
-import 'package:hospitality/src/widgets/scale_page_route.dart';
+import 'package:Albatross/src/dialogs/confirmation_link_dialog.dart';
+import 'package:Albatross/src/dialogs/forgot_password.dialog.dart';
+import 'package:Albatross/src/models/hospital.dart';
+import 'package:Albatross/src/providers/hospital_user_provider.dart';
+import 'package:Albatross/src/screens/hospital_home_screen.dart';
+import 'package:Albatross/src/models/user.dart';
+import 'package:Albatross/src/providers/user_profile_provider.dart';
+import 'package:Albatross/src/screens/splash_screen.dart';
+import 'package:Albatross/src/screens/user_home_screen.dart';
+import 'package:Albatross/src/widgets/scale_page_route.dart';
 import "dart:convert";
 import 'package:http/http.dart' show Response;
 import 'package:flutter/services.dart';
-import 'package:hospitality/src/resources/network/network_repository.dart';
-import 'package:hospitality/src/helpers/dimensions.dart';
+import 'package:Albatross/src/resources/network/network_repository.dart';
+import 'package:Albatross/src/helpers/dimensions.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -443,7 +443,7 @@ class _AuthScreenState extends State<AuthScreen> {
                       Container(
                           alignment: Alignment.center,
                           child: Text(
-                            'Hospitality',
+                            'Albatross',
                             style: TextStyle(
                               color: Colors.white,
                               fontFamily: "Satisfy",

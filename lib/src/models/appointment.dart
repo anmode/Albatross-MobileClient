@@ -1,6 +1,6 @@
-import 'package:hospitality/src/models/hospital.dart';
-import 'package:hospitality/src/models/user.dart';
-import 'package:hospitality/src/screens/splash_screen.dart';
+import 'package:Albatross/src/models/hospital.dart';
+import 'package:Albatross/src/models/user.dart';
+import 'package:Albatross/src/screens/splash_screen.dart';
 import 'package:intl/intl.dart';
 
 class Appointment {

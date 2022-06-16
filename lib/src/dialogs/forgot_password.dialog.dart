@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
-import 'package:hospitality/src/dialogs/loading_dialog.dart';
-import 'package:hospitality/src/dialogs/set_password_dialog.dart';
-import 'package:hospitality/src/helpers/dimensions.dart';
-import 'package:hospitality/src/resources/network/network_repository.dart';
+import 'package:Albatross/src/dialogs/loading_dialog.dart';
+import 'package:Albatross/src/dialogs/set_password_dialog.dart';
+import 'package:Albatross/src/helpers/dimensions.dart';
+import 'package:Albatross/src/resources/network/network_repository.dart';
 
 Future<void> showForgotPasswordDialog(BuildContext mainContext) async {
   bool isDisabled = true;
